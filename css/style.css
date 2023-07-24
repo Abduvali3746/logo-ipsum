@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1300px;
+  max-width: 100%;
+  margin: 0px auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* header */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.site-header {
+    padding: 2.75rem 0;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+
+.header-nav_item input {
+  width: 27.6875rem;
+  color: #808080;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0.75rem 1.5rem 0.75rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  outline: none;
+  background: url("../img/Search.png") no-repeat;
+  background-position: 98% center;
+}
+
+.header-nav_item select {
+  color: #1c3554;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  border: none;
+}
+
+.header-nav_item a {
+    color:#1C3554;
+font-family: Montserrat SemiBold;
+font-size: 16px;
+line-height: 32px;
+font-weight: 700;
+}
+
+.btn {
+    color:#1C3554;
+font-family: "Montserrat";
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+border-radius: 8px;
+border: 1px solid#1C3554;
+}
+
+.btn:hover {
+background: #F72585;
+color: #fff;
+border-color: transparent;
+}
+
+.nav-btn {
+    padding: 8px 32px;
+    background-color: transparent;
+}
